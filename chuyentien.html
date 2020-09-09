@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="tien.js"></script>
+
+
+</head>
+<style>
+    div {
+        width: 25%;
+        float: left;
+        text-align: center;
+        font-weight: bold;
+    }
+
+</style>
+<body>
+<form method="get" action="chuyentien.html">
+    <div style="width: 100%">
+        <div>
+    <h5>Amount</h5>
+    <input type="" value="1" id="amount">
+    </div>
+    <div width="25%">
+        <h5>From Currency</h5>
+        <select name="from" id="fromc">
+            <option value="vietnam">VietNam</option>
+
+        </select>
+    </div>
+        <div width="25%">
+            <h5>To Currency</h5>
+            <select name="to" id="toc">
+                <option value="usd">USD</option>
+            </select>
+        </div>
+        <div width="25%">
+            <br> <br> <br>
+            <input type="button" onclick="tien()" value="Convert" style="background-color: mediumpurple">
+        </div>
+    </div>
+</form>
+<p id="result"></p>
+
+</body>
+</html>
